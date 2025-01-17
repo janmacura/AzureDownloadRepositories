@@ -35,6 +35,7 @@ const getRepos = async () => {
         }
 
         const data = await response.json();
+        console.log(data);
         return data.value;
 
     } catch (error) {
